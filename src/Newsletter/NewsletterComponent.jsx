@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import juneImage from '../../public/IOC Website pictures/newsletter/june.png';
-import julyImage from '../../public/IOC Website pictures/newsletter/july.jpeg';
-import augustImage from '../../public/IOC Website pictures/newsletter/august.jpeg';
+import juneImage from '../../src/assests/newsletter/june.png';
+import julyImage from '../../src/assests/newsletter/july.jpeg';
+import augustImage from '../../src/assests/newsletter/august.jpeg';
 
 const NewsletterComponent = () => {
   const navigate = useNavigate();
