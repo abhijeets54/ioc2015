@@ -49,7 +49,7 @@ function Collage() {
           </div>
           <div className="carousel-item">
             <img
-              src="../../IOC Website pictures/ioc website content/three pillars/Education cover.jpg"
+              src="/Education cover.jpg"
               className="d-block w-100 h-screen object-cover"
               alt="Second slide"
             />
