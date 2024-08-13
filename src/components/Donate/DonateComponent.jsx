@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import withinIndiaImage from '../../../public/IOC Website pictures/Donate/india.png'; // Ensure the path to the image is correct
+import withinIndiaImage from '../../assests/newsletter/india.png'; // Ensure the path to the image is correct
 import restOfWorldImage from '../../assests/newsletter/restoftheworld.jpg'; // Ensure the path to the image is correct
 
 const DonateComponent = () => {

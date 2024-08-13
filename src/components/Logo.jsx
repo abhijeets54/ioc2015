@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assests/cropped ioc logo.jpg'; // Adjust path as necessary
+import logo from '../assests/newsletter/cropped ioc logo.jpg'; // Adjust path as necessary
 
 function Logo() {
   return (
