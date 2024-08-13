@@ -12,7 +12,7 @@ export const projects = [
   {
     name: "Project Usaari Youth Fest 2023",
     description: "The Initiators of Change successfully hosted the inaugural 'Project Usaari Youth Fest,' celebrating young talent from Punjab's government schools and NGOs. This event not only showcased diverse skills but also emphasized the importance of education and community engagement. Event Highlights: Preliminary Rounds: Participants showcased their skills in essay writing, declamation, singing, poster making, poetry, Shabad Gyan, and creative recycling. Final Showcase: The finale featured outstanding dance, singing, and poetry performances, highlighting the rich cultural and artistic heritage of Punjab. Special Moments: Special children from the Ashirwad NGO participated, enhancing the event with inclusivity. The highlight was a memorable Katha performance by Usaari Evening School students. Impact and Looking Forward: The Youth Fest served as a platform for empowering the youth, fostering inclusivity, and celebrating diversity. Encouraged by this year's success, we plan to expand next year's festival to include more participants and activities. Join us in nurturing the future leaders of Punjab. Your support is invaluable!",
-    image: "../../public/IOC Website pictures/ioc website content/three pillars/Education Projects/USAARI Youthfest/1 (2).jpg"
+    image: "../IOC Website pictures/ioc website content/three pillars/Education Projects/USAARI Youthfest/1 (2).jpg"
   },
   
 ];
