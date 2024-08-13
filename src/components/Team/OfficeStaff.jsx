@@ -1,6 +1,6 @@
 import React from 'react';
-import gurditSingh from '../../../IOC Website pictures/ioc website content/team/employees/Screenshot 2024-08-05 010302.png'; // Replace with actual path
-import kashishGupta from '../../../IOC Website pictures/ioc website content/team/employees/Kashish Gupta.jpg'; // Replace with actual path
+import gurditSingh from '/IOC Website pictures/ioc website content/team/employees/Screenshot 2024-08-05 010302.png'; // Replace with actual path
+import kashishGupta from '/IOC Website pictures/ioc website content/team/employees/Kashish Gupta.jpg'; // Replace with actual path
 
 const OfficeStaff = () => {
   return (

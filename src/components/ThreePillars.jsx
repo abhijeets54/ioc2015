@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import 'tailwindcss/tailwind.css';
 
 function ThreePillars() {
-  const awarenessImageUrl = '../../IOC Website pictures/ioc website content/three pillars/Awareness cover.jpg'; 
-  const educationImageUrl = '../../IOC Website pictures/ioc website content/three pillars/Education cover.jpg';
-  const humanitarianImageUrl = '../../IOC Website pictures/ioc website content/three pillars/Humanitarian aid cover.jpg';
+  const awarenessImageUrl = '/IOC Website pictures/ioc website content/three pillars/Awareness cover.jpg'; 
+  const educationImageUrl = '/IOC Website pictures/ioc website content/three pillars/Education cover.jpg';
+  const humanitarianImageUrl = '/IOC Website pictures/ioc website content/three pillars/Humanitarian aid cover.jpg';
 
   return (
     <div className="mx-auto bg-slate-100 p-6 shadow">

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import ludhianaImage from '../../../IOC Website pictures/branches/ludhiana.jpg'; // Replace with actual path
-import delhiImage from '../../../IOC Website pictures/branches/delhi.jpeg'; // Replace with actual path
-import canadaImage from '../../../IOC Website pictures/branches/canada.jpeg'; // Replace with actual path
+import ludhianaImage from '/IOC Website pictures/branches/ludhiana.jpg'; // Replace with actual path
+import delhiImage from '/IOC Website pictures/branches/delhi.jpeg'; // Replace with actual path
+import canadaImage from '/IOC Website pictures/branches/canada.jpeg'; // Replace with actual path
 
 const Branches = () => {
   return (

@@ -3,13 +3,13 @@ import 'tailwindcss/tailwind.css';
 
 // Placeholder URLs for the logos
 const logos = [
-  '../../IOC Website pictures/associates/cicu.png',
-  '../../IOC Website pictures/associates/bigben.png',
-  '../../IOC Website pictures/associates/deleciousbites.png',
-  '../../IOC Website pictures/associates/idfc.png',
-  '../../IOC Website pictures/associates/smtv.png',
-  '../../IOC Website pictures/associates/vipul.png',
-  '../../IOC Website pictures/associates/Election-Commission-Mar27-10.jpg',
+  '/IOC Website pictures/associates/cicu.png',
+  '/IOC Website pictures/associates/bigben.png',
+  '/IOC Website pictures/associates/deleciousbites.png',
+  '/IOC Website pictures/associates/idfc.png',
+  '/IOC Website pictures/associates/smtv.png',
+  '/IOC Website pictures/associates/vipul.png',
+  '/IOC Website pictures/associates/Election-Commission-Mar27-10.jpg',
 ];
 
 function OurAssociates() {

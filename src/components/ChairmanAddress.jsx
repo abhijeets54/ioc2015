@@ -2,7 +2,7 @@ import React from 'react';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ChairmanAddress() {
-    const chairmanImage = '../../IOC Website pictures/ioc website content/chairman/Copy of Copy of PHOTO-2024-01-29-17-11-57.jpg';
+    const chairmanImage = '/IOC Website pictures/ioc website content/chairman/Copy of Copy of PHOTO-2024-01-29-17-11-57.jpg';
   return (
     <div className="mt-0">
       <div className="card border-0" style={{ backgroundColor: '#FF7F00', color: 'white' }}>

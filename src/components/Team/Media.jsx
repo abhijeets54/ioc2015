@@ -1,5 +1,5 @@
 import React from 'react';
-import neerajJolly from '../../../IOC Website pictures/ioc website content/team/media head/Screenshot 2024-08-05 004725.png'; // Replace with actual path
+import neerajJolly from '/IOC Website pictures/ioc website content/team/media head/Screenshot 2024-08-05 004725.png'; // Replace with actual path
 
 const Media = () => {
   return (

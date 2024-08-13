@@ -1,6 +1,6 @@
 import React from 'react';
-import muskanmeet from '../../../IOC Website pictures/ioc website content/team/teamheads/muskan.png'; // Replace with actual path
-import manveet from '../../../IOC Website pictures/ioc website content/team/teamheads/Screenshot 2024-08-05 014343.png'; // Replace with actual path
+import muskanmeet from '/IOC Website pictures/ioc website content/team/teamheads/muskan.png'; // Replace with actual path
+import manveet from '/IOC Website pictures/ioc website content/team/teamheads/Screenshot 2024-08-05 014343.png'; // Replace with actual path
 
 const Canada = () => {
   return (

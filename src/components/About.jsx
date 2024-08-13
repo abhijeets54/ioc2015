@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import imageUrl from '../../IOC Website pictures/ioc website content/About us/team.png'; // Use ES6 import syntax
+import imageUrl from '/IOC Website pictures/ioc website content/About us/team.png'; // Use ES6 import syntax
 
 function About() {
   const navigate = useNavigate();

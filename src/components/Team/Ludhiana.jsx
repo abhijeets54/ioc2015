@@ -1,6 +1,6 @@
 import React from 'react';
-import jappanjotSingh from '../../../IOC Website pictures/ioc website content/team/teamheads/jappan.png'; // Replace with actual path
-import vidhiKaushal from '../../../IOC Website pictures/ioc website content/team/teamheads/vidhi.png'; // Replace with actual path
+import jappanjotSingh from '/IOC Website pictures/ioc website content/team/teamheads/jappan.png'; // Replace with actual path
+import vidhiKaushal from '/IOC Website pictures/ioc website content/team/teamheads/vidhi.png'; // Replace with actual path
 
 const Ludhiana = () => {
   return (

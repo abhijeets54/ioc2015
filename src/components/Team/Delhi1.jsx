@@ -1,6 +1,6 @@
 import React from 'react';
-import ajeetsingh from '../../../IOC Website pictures/ioc website content/team/teamheads/ajeet.png'; // Replace with actual path
-import jasleen from '../../../IOC Website pictures/ioc website content/team/teamheads/jasleen.png'; // Replace with actual path
+import ajeetsingh from '/IOC Website pictures/ioc website content/team/teamheads/ajeet.png'; // Replace with actual path
+import jasleen from '/IOC Website pictures/ioc website content/team/teamheads/jasleen.png'; // Replace with actual path
 
 const Delhi1 = () => {
   return (

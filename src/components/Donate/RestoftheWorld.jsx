@@ -1,5 +1,5 @@
 import React from 'react';
-import restOfWorldImage from '../../../IOC Website pictures/Donate/restoftheworld.jpg'; // Update the path to the correct image
+import restOfWorldImage from '../../../public/IOC Website pictures/Donate/restoftheworld.jpg'; // Update the path to the correct image
 
 const RestOfWorld = () => {
   return (

@@ -2,7 +2,7 @@ export const projects = [
   {
     name: "KISAAN MORCHA",
     description: "During the farmers' protest, more than 2 lakh protestors came together to oppose the Farmers Bill, but sadly, 800 of those people lost their lives. Team IOC believes in standing up for the righteous. Seeing the situation, members of our team went for on-the-ground support to serve the farmers. From setting up a medical camp to providing shelters and Langar Sewa on the Singhu Border, IOC was fully indulged in providing support in any possible way. Our Chairperson and Founder, Mr. Gauravdeep Singh, displayed full support by returning the National Youth Award granted to him.",
-    image: "../../IOC Website pictures/ioc website content/three pillars/Humanitarian aid projects/Farmer protest/Snapinsta.app_243072595_213595957425610_2712763690450613564_n_1080.jpg"
+    image: "/public/IOC Website pictures/ioc website content/three pillars/Humanitarian aid projects/Farmer protest/"
   },
   {
     name: "Punjab and Kerala floods",
