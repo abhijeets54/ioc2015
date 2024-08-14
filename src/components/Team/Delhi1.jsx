@@ -10,7 +10,7 @@ const Delhi1 = () => {
       <div className="flex justify-center space-x-64">
         <div className="text-center">
           <img className="w-48 h-48 mx-auto rounded-full object-cover" src={ajeetsingh} alt="Ajeet Singh" />
-          <h3 className="font-bold text-xl mt-4">AJEETT SINGH</h3>
+          <h3 className="font-bold text-xl mt-4">AJEET SINGH</h3>
           <p className="text-gray-700">PRESIDENT</p>
         </div>
         <div className="text-center">

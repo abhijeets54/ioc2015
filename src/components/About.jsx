@@ -17,13 +17,13 @@ function About() {
           <div className="w-full">
             <img
               src={imageUrl}
-              className="w-full h-full object-cover rounded-start shadow rounded-md mt-5"
+              className="w-full h-full object-cover rounded-start shadow-lg rounded-md mt-5"
               alt="Initiators of Change Team"
             />
           </div>
           <div className="w-full px-4 py-6 flex flex-col justify-center">
             <div className="card-body">
-              <h5 className="text-3xl mb-3">About Us</h5>
+              <h4 className="text-4xl mb-3">About Us</h4>
               <p className={`text-justify mb-3 ${!showFullText ? 'line-clamp-3' : ''}`}>
                 Welcome to Initiators of Change, where Punjab's youth are driving dynamic and impactful change. Since our establishment in 2015, we've been on a mission to cultivate a new generation of people who are socially active and aware. Through our three pillars of action—awareness, humanitarian aid, and education. We're making a tangible difference for the youth. 
               </p>

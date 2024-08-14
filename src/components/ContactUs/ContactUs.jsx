@@ -28,11 +28,6 @@ const ContactUsFooter = () => {
   return (
     <footer className="bg-gray-800 text-gray-200 py-8 relative">
       <div className="flex flex-col justify-between ml-10 md:flex-row items-center">
-        {/* First div */}
-        <div className="mb-4 ml-8 md:mb-0">
-          <p className="italic">“Recognise the whole human race as one”</p>
-          <p className="mt-2">– Guru Gobind Singh Ji</p>
-        </div>
         {/* Second div */}
         <div className="mb-4 md:mb-0 ml-10">
           <div className="text-center md:text-left">
@@ -75,27 +70,12 @@ const ContactUsFooter = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div className="text-center">
-            <p>Initiators Of Change</p>
-            <p>1st Floor, Food tree building, Flower Enclave, Dugri, Near Goyal Hospital, Ludhiana-14013, Punjab</p>
-            <p className="text-gray-600">4.8 stars, 83 reviews</p>
-          </div>
+         
         </div>
       </div>
 
       <div className="text-center mb-2 mt-5">
         <p className='mb-1'>All rights reserved © Initiators of Change.</p>
-          <p>Made with love in India by Gurdit Singh under Class101. </p> 
-      </div>
-      
-      {/* Visitors count */}
-      <div className="visitors-count absolute bottom-0 right-8 mb-6 mr-6 text-orange-500 text-5xl font-semibold">
-        {loading ? 'Loading...' : error ? 'Error fetching visitors' : (
-          <div className="flex flex-col items-center">
-            <span className="leading-none">{visitors.toLocaleString()}</span>
-            <span className="text-white text-xs mt-1 leading-none">Visitors</span>
-          </div>
-        )}
       </div>
     </footer>
   );

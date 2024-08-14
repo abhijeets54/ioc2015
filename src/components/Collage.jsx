@@ -16,7 +16,7 @@ function Collage() {
 
   return (
     <div className="relative">
-      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
         <div className="carousel-indicators">
           <button
             type="button"

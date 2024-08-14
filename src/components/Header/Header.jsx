@@ -19,19 +19,6 @@ function Header() {
 
   return (
     <header className='shadow bg-stone-50'>
-      <div className="relative overflow-hidden bg-gray-800 text-gray-200 py-2">
-        <div className="flex justify-between items-center whitespace-nowrap animate-scroll">
-          <p className="mr-8">+91 87259-01502</p>
-          <p className="mr-8">info@intitiatorsofchange@gmail.com</p>
-          <div className="flex space-x-5">
-            <a href="#" className="text-gray-400 hover:text-gray-100"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="text-gray-400 hover:text-gray-100"><i className="fab fa-twitter"></i></a>
-            <a href="#" className="text-gray-400 hover:text-gray-100"><i className="fab fa-youtube"></i></a>
-            <a href="#" className="text-gray-400 hover:text-gray-100"><i className="fas fa-envelope"></i></a>
-            <a href="#" className="text-gray-400 hover:text-gray-100"><i className="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </div>
       <Container>
         <nav className='py-3 flex mr-4 ml-3'>
           <div className='mr-3 ml-5 w-18 h-18'>
