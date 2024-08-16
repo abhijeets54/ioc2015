@@ -17,12 +17,22 @@ const data = [
   {
     icon: <FaHandsHelping className="h-12 w-12 text-white mb-2" />,
     number: 100,
-    label: 'Mission Served'
+    label: 'Projects'
+  },
+  {
+    icon: <FaSchool className="h-12 w-12 text-white mb-2" />,
+    number: 2,
+    label: 'Evening Schools'
+  },
+  {
+    icon: <FaHandsHelping className="h-12 w-12 text-white mb-2" />,
+    number: 8,
+    label: 'Branches'
   },
   {
     icon: <FaChild className="h-12 w-12 text-white mb-2" />,
-    number: 5000,
-    label: 'Students Impacted'
+    number: 50000,
+    label: 'Lives Impacted'
   }
 ];
 

@@ -43,69 +43,69 @@ const Register = () => {
     }
   };
 
-  return (
-    <div className="p-8 bg-white shadow-md rounded">
-      <h2 className="text-center text-3xl font-bold mb-6">Sign Up for Our Newsletter</h2>
-      {message && <p className="text-center text-green-500">{message}</p>}
-      <form onSubmit={handleSubmit}>
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-            Email Address
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="email"
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-            Password
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="password"
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2">Select Newsletters</label>
-          <label>
-            <input
-              type="checkbox"
-              value="newsletter1"
-              onChange={handleNewsletterChange}
-            />
-            Newsletter 1
-          </label>
-          <label>
-            <input
-              type="checkbox"
-              value="newsletter2"
-              onChange={handleNewsletterChange}
-            />
-            Newsletter 2
-          </label>
-        </div>
-        <div className="text-center">
-          <button className="bg-orange-500 text-white py-2 px-4 rounded" type="submit">
-            Sign Up
-          </button>
-        </div>
-      </form>
-      <div className="text-center mt-4">
-        <button className="bg-blue-500 text-white py-2 px-4 rounded" onClick={sendNewsletter}>
-          Send Newsletter
-        </button>
-      </div>
-    </div>
-  );
+  // return (
+  //   <div className="p-8 bg-white shadow-md rounded">
+  //     <h2 className="text-center text-3xl font-bold mb-6">Sign Up for Our Newsletter</h2>
+  //     {message && <p className="text-center text-green-500">{message}</p>}
+  //     <form onSubmit={handleSubmit}>
+  //       <div className="mb-4">
+  //         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+  //           Email Address
+  //         </label>
+  //         <input
+  //           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+  //           id="email"
+  //           type="email"
+  //           value={email}
+  //           onChange={(e) => setEmail(e.target.value)}
+  //           required
+  //         />
+  //       </div>
+  //       <div className="mb-4">
+  //         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
+  //           Password
+  //         </label>
+  //         <input
+  //           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+  //           id="password"
+  //           type="password"
+  //           value={password}
+  //           onChange={(e) => setPassword(e.target.value)}
+  //           required
+  //         />
+  //       </div>
+  //       <div className="mb-4">
+  //         <label className="block text-gray-700 text-sm font-bold mb-2">Select Newsletters</label>
+  //         <label>
+  //           <input
+  //             type="checkbox"
+  //             value="newsletter1"
+  //             onChange={handleNewsletterChange}
+  //           />
+  //           Newsletter 1
+  //         </label>
+  //         <label>
+  //           <input
+  //             type="checkbox"
+  //             value="newsletter2"
+  //             onChange={handleNewsletterChange}
+  //           />
+  //           Newsletter 2
+  //         </label>
+  //       </div>
+  //       <div className="text-center">
+  //         <button className="bg-orange-500 text-white py-2 px-4 rounded" type="submit">
+  //           Sign Up
+  //         </button>
+  //       </div>
+  //     </form>
+  //     <div className="text-center mt-4">
+  //       <button className="bg-blue-500 text-white py-2 px-4 rounded" onClick={sendNewsletter}>
+  //         Send Newsletter
+  //       </button>
+  //     </div>
+  //   </div>
+  // );
 };
 
 export default Register;
