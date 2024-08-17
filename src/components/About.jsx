@@ -43,8 +43,8 @@ function About() {
                   </p>
                 </>
               )}
-              <button className="btn btn-danger mt-4" onClick={handleMoreAboutUs}>
-                {showFullText ? 'Show Less' : 'More About Us'}
+              <button className="btn bg-orange-500 btn-danger mt-4" onClick={handleMoreAboutUs}>
+                {showFullText ? 'Show Less' : 'Read more'}
               </button>
             </div>
           </div>
