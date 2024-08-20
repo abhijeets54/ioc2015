@@ -71,17 +71,17 @@ function Collage() {
 
       <div className="absolute inset-0 flex items-center bg-black bg-opacity-50">
         <div className="flex flex-col items-start ml-10 text-white">
-          <h4 className="text-5xl mt-1 font-medium text-left mx-44">Creating Leaders,
+          <h4 className="text-5xl mt-1 font-medium text-left ">Creating Leaders,
             <br /> Transforming Lives</h4>
           
-          <div className="buttons flex flex-row mt-1 mx-44">
+          <div className="buttons flex flex-row mt-1 ">
             <button className="m-2 px-4 py-2 rounded-3xl bg-orange-500 text-white" onClick={handleDonateClick}>Donate now</button>
             <button className="m-2 px-4 py-2 rounded-3xl border-2 border-white bg-transparent text-white" onClick={handleJoinUsClick}>Join us</button>
           </div>
         </div>
 
         {/* Social Media Buttons */}
-        <div className="absolute right-10 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4">
+        <div className="fixed right-10 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4">
           <button
             className="w-10 h-10 flex items-center justify-center rounded-full bg-orange-500 hover:bg-gray-600 text-white"
             onClick={() => handleSocialClick('https://www.instagram.com/initiatorsofchange_')}
