@@ -31,14 +31,14 @@ function Header() {
             </button>
           </div>
           
-          {/* Hamburger Menu Button */}
+          
           <div className='lg:hidden mr-5'>
             <button onClick={toggleMenu} className='text-black focus:outline-none'>
               {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
             </button>
           </div>
 
-          {/* Desktop Navigation */}
+         
           <ul className='hidden lg:flex ml-auto'>
             {navItems.map((item) => (
               <li key={item.name}>
@@ -54,7 +54,7 @@ function Header() {
             ))}
           </ul>
 
-          {/* Mobile Navigation */}
+          
           {menuOpen && (
             <ul className='lg:hidden absolute top-16 left-0 w-full bg-stone-50 shadow-md flex flex-col items-center space-y-4 py-6 z-40'>
               {navItems.map((item) => (
@@ -62,7 +62,7 @@ function Header() {
                   <button
                     onClick={() => {
                       navigate(item.slug);
-                      setMenuOpen(false); // Close menu after navigating
+                      setMenuOpen(false); 
                     }}
                     className={`inline-block px-6 py-2 duration-200 hover:bg-blue-200 rounded-full ${
                       location.pathname === item.slug ? 'bg-transparent border-2 border-gray-800 text-black' : ''

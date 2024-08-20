@@ -29,7 +29,7 @@ const DonateComponent = () => {
       <h2 className="text-center text-xl font-bold mb-6">Where are you donating from</h2>
 
       <div className="flex justify-center space-x-6">
-       <div
+       {/* <div
           className="flex flex-col items-center cursor-pointer"
           onClick={() => handleRedirect('/RestOfWorld')}
         >
@@ -41,7 +41,7 @@ const DonateComponent = () => {
             />
           </div>
           <p className="text-lg">Rest of the World</p>
-        </div>
+        </div> */}
 
         <div
           className="flex flex-col items-center cursor-pointer"
