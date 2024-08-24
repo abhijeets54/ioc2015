@@ -11,7 +11,6 @@ const logos = [
   '/IOC Website pictures/associates/Election-Commission-Mar27-10.jpg',
   '/ggi.png',
   '/hero.png',
-  '/josh.png',
   '/lpu.png',
   '/avon.jpg',
   '/Vardhman.png'

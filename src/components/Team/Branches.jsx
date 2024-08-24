@@ -6,10 +6,10 @@ import canadaImage from '/IOC Website pictures/branches/canada.jpeg'; // Replace
 
 const Branches = () => {
   return (
-    <div className="px-8 py-28 bg-white pt-12">
+    <div className="px-8 py-28  bg-white pt-12">
       <h2 className="text-center text-3xl font-bold mb-8">BRANCHES</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
-        <div className="text-center col-span-1">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 justify-center">
+        <div className="text-center gap-8 col-span-1">
           <Link to="/Ludhiana">
             <img className="w-48 h-48 mx-auto rounded-full object-cover" src={ludhianaImage} alt="Ludhiana" />
           </Link>

@@ -6,7 +6,7 @@ const OfficeStaff = () => {
   return (
     <div className="p-8 bg-white pt-15">
       <h2 className="text-center text-3xl font-bold mb-8">OFFICE TEAM</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-0 justify-center mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-center mt-5">
         <div className="text-center col-span-1 ml-44">
           <img className="w-48 h-48 mx-auto rounded-full object-cover" src={gurditSingh} alt="Gurdit Singh" />
           <h3 className="font-bold text-xl mt-4">GURDIT SINGH</h3>
