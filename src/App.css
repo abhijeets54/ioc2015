@@ -203,6 +203,7 @@
 }
 
 .animate-scroll2 {
+  overflow: hidden;
   display: flex;
   white-space: wrap;
   animation: scroll 45s linear infinite;

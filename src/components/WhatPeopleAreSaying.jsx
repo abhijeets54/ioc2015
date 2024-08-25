@@ -3,6 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const reviews = [
   {
+    
     id: 1,
     name: 'Fatima Sana Shaikh',
     location: 'Mumbai',
@@ -27,6 +28,8 @@ const reviews = [
 
 const WhatPeopleAreSaying = () => {
   return (
+    <>
+    <div className='overflow-hidden'>
     <div className="overflow-hidden py-8 flex flex-col justify-center items-center">
       <h2 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-6">WHAT PEOPLE ARE SAYING</h2>
       <div className="animate-scroll2 flex space-x-6 overflow-x-auto">
@@ -55,6 +58,8 @@ const WhatPeopleAreSaying = () => {
         ))}
       </div>
     </div>
+    </div>
+    </>
   );
 };
 
