@@ -11,9 +11,9 @@ import ajeetsingh from '/IOC Website pictures/ioc website content/team/teamheads
 import jasleen from '/IOC Website pictures/ioc website content/team/teamheads/jasleen.png';
 import muskanmeet from '/IOC Website pictures/ioc website content/team/teamheads/muskan.png';
 import manveet from '/IOC Website pictures/ioc website content/team/teamheads/Screenshot 2024-08-05 014343.png';
-import ludhianaImage from '/IOC Website pictures/branches/ludhiana.jpg'; // Replace with actual path
-import delhiImage from '/IOC Website pictures/branches/delhi.jpeg'; // Replace with actual path
-import canadaImage from '/IOC Website pictures/branches/canada.jpeg'; // Replace with actual path
+import ludhianaImage from '/IOC Website pictures/branches/ludhiana.jpg'; 
+import delhiImage from '/IOC Website pictures/branches/delhi.jpeg'; 
+import canadaImage from '/IOC Website pictures/branches/canada.jpeg';
 
 function About() {
   const [showFullText, setShowFullText] = useState(false);
@@ -78,7 +78,7 @@ function About() {
         </div>
       </div>
 
-      {/* Sections for Team, Advisory, etc. */}
+      
       <div className="w-full justify-center mx-auto bg-white">
         <div className="px-4 py-8 bg-white">
           <h2 className="text-3xl font-bold text-center mb-6">Our Team</h2>
@@ -169,7 +169,7 @@ function About() {
                         unmountOnExit
                       >
                         <div>
-                          {/* Branch heads are removed */}
+                          
                           <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-8 md:space-x-16">
                             <div className="text-center">
                               <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={muskanmeet} alt="Muskanmeet Kaur" />

@@ -9,7 +9,7 @@ function ThreePillars() {
 
   return (
     <div className="mx-auto bg-slate-100 p-6 shadow">
-      <h4 className="text-center text-orange-500 mt-3 text-xl">OUR PROJECTS</h4>
+      <h4 className="text-center text-orange-500 mt-3 text-xl"></h4>
       <h2 className="text-center text-4xl mt-3 font-bold mb-16">Three Pillars of IOC</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/*First card */}
@@ -18,7 +18,7 @@ function ThreePillars() {
             <div className="card h-full bg-white rounded-lg shadow overflow-hidden">
               <img src={educationImageUrl} className="w-full h-72 object-cover" alt="Education Projects" />
               <div className="p-4">
-                <h5 className="text-center text-xl font-bold">Education Projects</h5>
+                <h5 className="text-center text-xl font-bold">Education</h5>
               </div>
             </div>
           </Link>
@@ -29,7 +29,7 @@ function ThreePillars() {
             <div className="card h-full bg-white rounded-lg shadow overflow-hidden">
               <img src={awarenessImageUrl} className="w-full h-72 object-cover" alt="Awareness Projects" />
               <div className="p-4">
-                <h5 className="text-center text-xl font-bold">Awareness Projects</h5>
+                <h5 className="text-center text-xl font-bold">Awareness</h5>
               </div>
             </div>
           </Link>
@@ -39,7 +39,7 @@ function ThreePillars() {
             <div className="card h-full bg-white rounded-lg shadow overflow-hidden">
               <img src={humanitarianImageUrl} className="w-full h-72 object-cover" alt="Humanitarian Projects" />
               <div className="p-4">
-                <h5 className="text-center text-xl font-bold">Humanitarian Projects</h5>
+                <h5 className="text-center text-xl font-bold">Humanitarian Aid </h5>
               </div>
             </div>
           </Link>
