@@ -210,16 +210,5 @@
 }
 
 /* in your CSS file */
-.vertical-text {
-  writing-mode:vertical-lr;
-  text-orientation:upright;
-  letter-spacing: -0.4em; /* Adjust as needed */
-  line-height: 0.9; /* Adjust as needed */
-}
-.line-clamp-3 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-}
+
 

@@ -39,5 +39,14 @@
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
 
+  /* Custom CSS to hide the scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
   
   

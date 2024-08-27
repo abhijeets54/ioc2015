@@ -36,7 +36,7 @@ const WhatPeopleAreSaying = () => {
         {reviews.map((review) => (
           <div
             key={review.id}
-            className="flex-shrink-0 w-80 sm:w-96 bg-white rounded-lg shadow-lg p-4 m-2"
+            className="flex-shrink-0 w-auto sm:w-96 bg-white rounded-lg shadow-lg p-4 m-2"
           >
             <div className="flex items-center justify-center space-x-4 mb-4">
               <img
