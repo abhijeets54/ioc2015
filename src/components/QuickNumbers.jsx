@@ -38,17 +38,17 @@ const data = [
 
 function QuickNumbers() {
   return (
-    <div className="bg-orange-500 py-8">
-      <h2 className="text-center text-4xl font-bold text-white pt-5 mb-8">QUICK NUMBERS</h2>
-      <div className="flex flex-wrap justify-center space-x-0 sm:space-x-8 lg:space-x-24 mt-5 pb-5">
+    <div className="bg-orange-500 py-8 w-full">
+      <h2 className="text-center text-2xl sm:text-4xl font-bold text-white pt-5 mb-8">QUICK NUMBERS</h2>
+      <div className="flex flex-wrap justify-center gap-8 lg:gap-24 mt-5 pb-5">
         {data.map((item, index) => (
-          <div key={index} className="text-center text-white pt-3 w-1/2 sm:w-auto mb-8 sm:mb-0">
+          <div key={index} className="text-center text-white pt-3 w-full sm:w-auto flex-1 sm:flex-none">
             <div className="quicknumber flex flex-col justify-center items-center">
               <div className="icon mb-2">{item.icon}</div>
-              <h3 className="text-4xl font-bold">
+              <h3 className="text-2xl sm:text-4xl font-bold">
                 <CountUp end={item.number} duration={7} />
               </h3>
-              <p className="mt-2 text-xl">{item.label}</p>
+              <p className="mt-2 text-base sm:text-xl">{item.label}</p>
             </div>
           </div>
         ))}

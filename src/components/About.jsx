@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import imageUrl from '/IOC Website pictures/ioc website content/About us/team.png';
 import Trust from './Team/Trustee';
 import Advisory from './Team/Advisory';
@@ -20,13 +20,18 @@ function About() {
   const [activeSection, setActiveSection] = useState(null);
   const [activeBranch, setActiveBranch] = useState(null);
 
+  // Scroll to top on component mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const handleMoreAboutUs = () => {
     setShowFullText(!showFullText);
   };
 
   const handleSectionClick = (section) => {
     setActiveSection(activeSection === section ? null : section);
-    setActiveBranch(null); // Reset active branch when another section is clicked
+    setActiveBranch(null); 
   };
 
   const handleBranchClick = (branch) => {
@@ -111,7 +116,7 @@ function About() {
                         unmountOnExit
                       >
                         <div>
-                          {/* Branch heads are removed */}
+                         
                           <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-8 md:space-x-16">
                             <div className="text-center">
                               <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={jappanjotSingh} alt="Jappanjot Singh" />
@@ -140,17 +145,17 @@ function About() {
                         unmountOnExit
                       >
                         <div>
-                          {/* Branch heads are removed */}
+                         
                           <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-8 md:space-x-16">
-                            <div className="text-center">
-                              <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={ajeetsingh} alt="Ajeet Singh" />
-                              <h3 className="font-bold text-lg sm:text-xl md:text-2xl mt-4">AJEET SINGH</h3>
-                              <p className="text-gray-700">PRESIDENT</p>
-                            </div>
                             <div className="text-center">
                               <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={jasleen} alt="Jasleen" />
                               <h3 className="font-bold text-lg sm:text-xl md:text-2xl mt-4">JASLEEN KAUR</h3>
-                              <p className="text-gray-700">VICE-PRESIDENT</p>
+                              <p className="text-gray-700">BRANCH HEAD</p>
+                            </div>
+                            <div className="text-center">
+                              <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={ajeetsingh} alt="Ajeet Singh" />
+                              <h3 className="font-bold text-lg sm:text-xl md:text-2xl mt-4">AJEET SINGH</h3>
+                              <p className="text-gray-700">VICE-BRANCH HEAD</p>
                             </div>
                           </div>
                         </div>
@@ -169,17 +174,17 @@ function About() {
                         unmountOnExit
                       >
                         <div>
-                          
+                         
                           <div className="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-8 md:space-x-16">
                             <div className="text-center">
-                              <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={muskanmeet} alt="Muskanmeet Kaur" />
-                              <h3 className="font-bold text-lg sm:text-xl md:text-2xl mt-4">MUSKANMEET KAUR</h3>
-                              <p className="text-gray-700">PRESIDENT</p>
+                              <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={muskanmeet} alt="Muskanmeet" />
+                              <h3 className="font-bold text-lg sm:text-xl md:text-2xl mt-4">MUSKANMEET</h3>
+                              <p className="text-gray-700">BRANCH HEAD</p>
                             </div>
                             <div className="text-center">
-                              <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={manveet} alt="Manveet Kaur" />
-                              <h3 className="font-bold text-lg sm:text-xl md:text-2xl mt-4">MANVEET KAUR</h3>
-                              <p className="text-gray-700">VICE-PRESIDENT</p>
+                              <img className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto rounded-full object-cover" src={manveet} alt="Manveet" />
+                              <h3 className="font-bold text-lg sm:text-xl md:text-2xl mt-4">MANVEET</h3>
+                              <p className="text-gray-700">VICE-BRANCH HEAD</p>
                             </div>
                           </div>
                         </div>
@@ -191,27 +196,25 @@ function About() {
             </div>
 
             <button
-              className={`flex items-center justify-start w-full text-left p-4 ${isActive('Trust')}`}
-              onClick={() => handleSectionClick('Trust')}
+              className={`flex items-center  w-full text-left p-4 ${isActive('Trustee')}`}
+              onClick={() => handleSectionClick('Trustee')}
             >
-              <span className="mr-2">➤</span> Trust Board
+              <span className="mr-2">➤</span> Trustee
             </button>
             <CSSTransition
-              in={activeSection === 'Trust'}
+              in={activeSection === 'Trustee'}
               timeout={300}
               classNames="slide"
               unmountOnExit
             >
-              <div>
-                <Trust />
-              </div>
+              <Trust />
             </CSSTransition>
 
             <button
-              className={`flex items-center justify-start w-full text-left p-4 ${isActive('Advisory')}`}
+              className={`flex items-center w-full text-left p-4 ${isActive('Advisory')}`}
               onClick={() => handleSectionClick('Advisory')}
             >
-              <span className="mr-2">➤</span> Advisory Board
+              <span className="mr-2">➤</span> Advisory
             </button>
             <CSSTransition
               in={activeSection === 'Advisory'}
@@ -219,16 +222,14 @@ function About() {
               classNames="slide"
               unmountOnExit
             >
-              <div>
-                <Advisory />
-              </div>
+              <Advisory />
             </CSSTransition>
 
             <button
-              className={`flex items-center justify-start w-full text-left p-4 ${isActive('Media')}`}
+              className={`flex items-center  w-full text-left p-4 ${isActive('Media')}`}
               onClick={() => handleSectionClick('Media')}
             >
-              <span className="mr-2">➤</span> Media and Marketing Team
+              <span className="mr-2">➤</span> Media
             </button>
             <CSSTransition
               in={activeSection === 'Media'}
@@ -236,26 +237,22 @@ function About() {
               classNames="slide"
               unmountOnExit
             >
-              <div>
-                <Media />
-              </div>
+              <Media />
             </CSSTransition>
 
             <button
-              className={`flex items-center justify-start w-full text-left p-4 ${isActive('Office')}`}
-              onClick={() => handleSectionClick('Office')}
+              className={`flex items-center w-full text-left p-4 ${isActive('OfficeStaff')}`}
+              onClick={() => handleSectionClick('OfficeStaff')}
             >
               <span className="mr-2">➤</span> Office Staff
             </button>
             <CSSTransition
-              in={activeSection === 'Office'}
+              in={activeSection === 'OfficeStaff'}
               timeout={300}
-              classNames="slide "
+              classNames="slide"
               unmountOnExit
             >
-              <div >
-                <OfficeStaff />
-              </div>
+              <OfficeStaff />
             </CSSTransition>
           </div>
         </div>
