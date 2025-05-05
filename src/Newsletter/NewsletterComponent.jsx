@@ -1,8 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import juneImage from '../../src/assests/newsletter/june.png';
 import julyImage from '../../src/assests/newsletter/july.jpeg';
 import augustImage from '../../src/assests/newsletter/august.jpeg';
+import OptimizedImage from '../components/common/OptimizedImage';
+import AnimatedSectionHeader from '../components/common/AnimatedSectionHeader';
+import AnimatedCard from '../components/common/AnimatedCard';
+import AnimatedButton from '../components/common/AnimatedButton';
 
 const NewsletterComponent = () => {
   const navigate = useNavigate();
@@ -11,59 +16,136 @@ const NewsletterComponent = () => {
     navigate(path);
   };
 
+  // Newsletter data
+  const newsletters = [
+    {
+      id: 1,
+      image: juneImage,
+      month: 'JUNE 2024',
+      title: 'Usaari Free Evening School',
+      excerpt: 'Discover how our evening school program is transforming lives through education...',
+      path: '/newsletter/june-2024',
+      delay: 0
+    },
+    {
+      id: 2,
+      image: julyImage,
+      month: 'JULY 2024',
+      title: 'Mann Mela 2024',
+      excerpt: 'Our annual cultural festival brought together communities to celebrate diversity and heritage...',
+      path: '/newsletter/july-2024',
+      delay: 0.1
+    },
+    {
+      id: 3,
+      image: augustImage,
+      month: 'AUGUST 2024',
+      title: 'Coming Soon',
+      excerpt: 'Our August newsletter will be released on 10th September. Stay tuned for more updates!',
+      path: '/newsletter/august-2024',
+      delay: 0.2
+    }
+  ];
+
   return (
-    <div className="p-8 bg-white shadow-md rounded">
-      <h2 className="text-center text-3xl font-bold mb-6">NEWSLETTERS</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-white rounded overflow-hidden shadow-lg p-4 flex flex-col">
-          <img className="w-full h-fit object-scale-down" src={juneImage} alt="June Newsletter" />
-          <div className="mt-4 flex-1">
-            <h3 className="font-bold text-2xl mb-2">JUNE 2024</h3>
-            <p className="text-gray-700 text-base mb-4">Usaari Free Evening School...</p>
-          </div>
-          <button
-            className="text-orange-500 font-semibold mt-auto"
-            onClick={() => handleReadMore('/newsletter/june-2024')}
-          >
-            ➔ Read More
-          </button>
+    <motion.div 
+      className="py-16 px-8 bg-gradient-to-b from-white to-orange-50"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="max-w-6xl mx-auto">
+        {/* Section Header */}
+        <AnimatedSectionHeader 
+          title="OUR NEWSLETTERS" 
+          subtitle="Stay updated with our latest initiatives, success stories, and upcoming events"
+          underlineColor="orange"
+          centered
+        />
+        
+        {/* Newsletter Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          {newsletters.map((newsletter) => (
+            <AnimatedCard 
+              key={newsletter.id} 
+              className="bg-white rounded-lg overflow-hidden shadow-lg h-full flex flex-col"
+              delay={newsletter.delay}
+              animationType="fade-up"
+            >
+              {/* Newsletter Image with Hover Effect */}
+              <div className="relative overflow-hidden h-48">
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ duration: 0.5 }}
+                  className="h-full"
+                >
+                  <OptimizedImage 
+                    className="w-full h-full object-cover" 
+                    src={newsletter.image} 
+                    alt={`${newsletter.month} Newsletter`} 
+                  />
+                </motion.div>
+                
+                {/* Month Badge */}
+                <div className="absolute top-0 right-0 bg-orange-500 text-white px-3 py-1 text-sm font-bold">
+                  {newsletter.month}
+                </div>
+              </div>
+              
+              {/* Content */}
+              <div className="p-6 flex-1 flex flex-col">
+                <h3 className="font-bold text-xl text-gray-800 mb-3">{newsletter.title}</h3>
+                <p className="text-gray-600 text-base mb-4 flex-grow">{newsletter.excerpt}</p>
+                
+                <AnimatedButton
+                  variant="text"
+                  className="mt-auto self-start"
+                  icon={<span className="ml-1">→</span>}
+                  iconPosition="right"
+                  onClick={() => handleReadMore(newsletter.path)}
+                >
+                  Read More
+                </AnimatedButton>
+              </div>
+            </AnimatedCard>
+          ))}
         </div>
-        <div className="bg-white rounded overflow-hidden shadow-lg p-4 flex flex-col">
-          <img className="w-full h-fit object-scale-down" src={julyImage} alt="July Newsletter" />
-          <div className="mt-4 flex-1">
-            <h3 className="font-bold text-2xl mb-2">JULY 2024</h3>
-            <p className="text-gray-700 text-base mb-4">Mann Mela 2024...</p>
-          </div>
-          <button
-            className="text-orange-500 font-semibold mt-auto"
-            onClick={() => handleReadMore('/newsletter/july-2024')}
+        
+        {/* View All Button */}
+        <div className="text-center">
+          <AnimatedButton
+            variant="primary"
+            size="large"
+            onClick={() => handleReadMore('/newsletter')}
+            className="px-8"
           >
-            ➔ Read More
-          </button>
+            View All Newsletters
+          </AnimatedButton>
         </div>
-        <div className="bg-white rounded overflow-hidden shadow-lg p-4 flex flex-col">
-          <img className="w-full  h-fit object-scale-down" src={augustImage} alt="August Newsletter" />
-          <div className="mt-4 flex-1">
-            <h3 className="font-bold text-2xl mb-2">AUGUST 2024</h3>
-            <p className="text-gray-700 text-base mb-4">Will be released on 10th September.</p>
-          </div>
-          <button
-            className="text-orange-500 font-semibold mt-auto"
-            onClick={() => handleReadMore('/newsletter/august-2024')}
-          >
-            ➔ Read More
-          </button>
-        </div>
-      </div>
-      <div className="text-center mt-6">
-        <button
-          className="bg-orange-500 text-white py-2 px-4 rounded"
-          onClick={() => handleReadMore('/newsletter')}
+        
+        {/* Newsletter Subscription Teaser */}
+        <motion.div 
+          className="mt-16 bg-orange-100 rounded-lg p-8 flex flex-col md:flex-row items-center justify-between"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
         >
-          Read More
-        </button>
+          <div className="mb-6 md:mb-0 md:mr-6">
+            <h3 className="text-2xl font-bold text-gray-800 mb-2">Subscribe to Our Newsletter</h3>
+            <p className="text-gray-600">Get monthly updates on our projects and initiatives directly in your inbox.</p>
+          </div>
+          
+          <AnimatedButton
+            variant="primary"
+            size="large"
+            onClick={() => navigate('/subscribe')}
+          >
+            Subscribe Now
+          </AnimatedButton>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

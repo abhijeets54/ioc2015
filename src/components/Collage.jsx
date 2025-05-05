@@ -47,21 +47,21 @@ function Collage() {
         <div className="carousel-inner" style={{ height: '100vh' }}>
           <div className="carousel-item active">
             <img
-              src="../../IOC Website pictures/ioc website content/three pillars/Awareness/Collage1.JPG"
+              src="../../IOC Website pictures/ioc website content/three pillars/Awareness/Collage1.webp"
               className="d-block w-100 h-screen object-cover"
               alt="First slide"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="/Education cover.jpg"
+              src="/Education cover.webp"
               className="d-block w-100 h-screen object-cover"
               alt="Second slide"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="../../IOC Website pictures/ioc website content/home page/Fatimawithstudents.JPG"
+              src="../../IOC Website pictures/ioc website content/home page/Fatimawithstudents.webp"
               className="d-block w-100 h-screen object-cover"
               alt="Third slide"
             />

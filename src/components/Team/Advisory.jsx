@@ -1,13 +1,13 @@
 import React from 'react';
-import arshiaLekhi from '/IOC Website pictures/ioc website content/team/advisors/Arshia Lekhi.jpg'; // Replace with actual paths
-import arshpreetKaur from '/IOC Website pictures/ioc website content/team/advisors/Arshpreet Kaur, Director.jpg';
-import taranjotSingh from '/IOC Website pictures/ioc website content/team/advisors/Taranjot Singh.jpg';
-import riaBharti from '/IOC Website pictures/ioc website content/team/advisors/Ria Bharti.jpg';
-import raghavSachdeva from '/IOC Website pictures/ioc website content/team/advisors/Raghav Sachdeva.jpg';
-import udayWadhwa from '/IOC Website pictures/ioc website content/team/advisors/Uday Wadhwa.jpg';
-import tanushaArora from '/IOC Website pictures/ioc website content/team/advisors/Tanusha Arora.jpg';
-import pankhuria from '/IOC Website pictures/ioc website content/team/advisors/Pankhuria.jpg';
-import arshmadaan from '/IOC Website pictures/ioc website content/team/advisors/Arsh Madaan.jpg';
+import arshiaLekhi from '/IOC Website pictures/ioc website content/team/advisors/Arshia Lekhi.webp'; // Replace with actual paths
+import arshpreetKaur from '/IOC Website pictures/ioc website content/team/advisors/Arshpreet Kaur, Director.webp';
+import taranjotSingh from '/IOC Website pictures/ioc website content/team/advisors/Taranjot Singh.webp';
+import riaBharti from '/IOC Website pictures/ioc website content/team/advisors/Ria Bharti.webp';
+import raghavSachdeva from '/IOC Website pictures/ioc website content/team/advisors/Raghav Sachdeva.webp';
+import udayWadhwa from '/IOC Website pictures/ioc website content/team/advisors/Uday Wadhwa.webp';
+import tanushaArora from '/IOC Website pictures/ioc website content/team/advisors/Tanusha Arora.webp';
+import pankhuria from '/IOC Website pictures/ioc website content/team/advisors/Pankhuria.webp';
+import arshmadaan from '/IOC Website pictures/ioc website content/team/advisors/Arsh Madaan.webp';
 
 const Advisory = () => {
   return (

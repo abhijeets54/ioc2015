@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import imageUrl from '/IOC Website pictures/ioc website content/About us/team.png';
+import imageUrl from '/IOC Website pictures/ioc website content/About us/team.webp';
 import Trust from './Team/Trustee';
 import Advisory from './Team/Advisory';
 import Media from './Team/Media';
 import OfficeStaff from './Team/OfficeStaff';
 import { CSSTransition } from 'react-transition-group';
-import jappanjotSingh from '/IOC Website pictures/ioc website content/team/teamheads/jappan.png';
-import vidhiKaushal from '/IOC Website pictures/ioc website content/team/teamheads/vidhi.png';
-import ajeetsingh from '/IOC Website pictures/ioc website content/team/teamheads/ajeet.png';
-import jasleen from '/IOC Website pictures/ioc website content/team/teamheads/jasleen.png';
-import muskanmeet from '/IOC Website pictures/ioc website content/team/teamheads/muskan.png';
-import manveet from '/IOC Website pictures/ioc website content/team/teamheads/Screenshot 2024-08-05 014343.png';
-import ludhianaImage from '/IOC Website pictures/branches/ludhiana.jpg'; 
-import delhiImage from '/IOC Website pictures/branches/delhi.jpeg'; 
-import canadaImage from '/IOC Website pictures/branches/canada.jpeg';
+import jappanjotSingh from '/IOC Website pictures/ioc website content/team/teamheads/jappan.webp';
+import vidhiKaushal from '/IOC Website pictures/ioc website content/team/teamheads/vidhi.webp';
+import ajeetsingh from '/IOC Website pictures/ioc website content/team/teamheads/ajeet.webp';
+import jasleen from '/IOC Website pictures/ioc website content/team/teamheads/jasleen.webp';
+import muskanmeet from '/IOC Website pictures/ioc website content/team/teamheads/muskan.webp';
+import manveet from '/IOC Website pictures/ioc website content/team/teamheads/Screenshot 2024-08-05 014343.webp';
+import ludhianaImage from '/IOC Website pictures/branches/ludhiana.webp'; 
+import delhiImage from '/IOC Website pictures/branches/delhi.webp'; 
+import canadaImage from '/IOC Website pictures/branches/canada.webp';
 
 function About() {
   const [showFullText, setShowFullText] = useState(false);

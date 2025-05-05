@@ -8,21 +8,21 @@ const reviews = [
     name: 'Fatima Sana Shaikh',
     location: 'Mumbai',
     text: 'It was my privilege to be a part of Initiators of Change. Being there in the foundation for a enriched me with lots of experience.',
-    image: '/IOC Website pictures/Reviews/fatima.jpg',
+    image: '/IOC Website pictures/Reviews/fatima.webp',
   },
   {
     id: 2,
     name: 'Surjit Patar',
     location: 'Ludhiana',
     text: "It was my privilege to be a part of Initiators of Change. Being there in the foundation for a enriched me with lots of experience.",
-    image: '/IOC Website pictures/Reviews/surjeet patar.jpeg',
+    image: '/IOC Website pictures/Reviews/surjeet patar.webp',
   },
   {
     id: 3,
     name: 'Vishnu Kaushal',
     location: 'Delhi',
     text: "It was my privilege to be a part of Initiators of Change. Being there in the foundation for a enriched me with lots of experience.",
-    image: '/IOC Website pictures/Reviews/Vishnu-Kaushal-image.jpg',
+    image: '/IOC Website pictures/Reviews/Vishnu-Kaushal-image.webp',
   },
 ];
 

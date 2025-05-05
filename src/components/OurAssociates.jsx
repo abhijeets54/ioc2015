@@ -2,17 +2,17 @@ import React from 'react';
 import 'tailwindcss/tailwind.css';
 
 const logos = [
-  '/IOC Website pictures/associates/cicu.png',
-  '/IOC Website pictures/associates/bigben.png',
-  '/IOC Website pictures/associates/idfc.png',
-  '/IOC Website pictures/associates/smtv.png',
-  '/IOC Website pictures/associates/vipul.png',
-  '/IOC Website pictures/associates/Election-Commission-Mar27-10.jpg',
-  '/ggi.png',
-  '/hero.png',
-  '/lpu.png',
-  '/avon.jpg',
-  '/Vardhman.png'
+  '/IOC Website pictures/associates/cicu.webp',
+  '/IOC Website pictures/associates/bigben.webp',
+  '/IOC Website pictures/associates/idfc.webp',
+  '/IOC Website pictures/associates/smtv.webp',
+  '/IOC Website pictures/associates/vipul.webp',
+  '/IOC Website pictures/associates/Election-Commission-Mar27-10.webp',
+  '/ggi.webp',
+  '/hero.webp',
+  '/lpu.webp',
+  '/avon.webp',
+  '/Vardhman.webp'
 ];
 
 function OurAssociates() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import OptimizedImage from '../common/OptimizedImage';
 import { useNavigate } from 'react-router-dom';
 import { projects } from '../../ProjectDetails/projectsDataEducation';
 
@@ -19,7 +20,7 @@ const Education = () => {
             className="bg-white rounded-lg shadow-md  overflow-hidden cursor-pointer transform transition-transform hover:scale-105"
             onClick={() => handleCardClick(project)}
           >
-            <img src={project.image} alt={project.name} className="w-full h-72 object-cover" />
+            <OptimizedImage src={project.image} alt={project.name} className="w-full h-72 object-cover" />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-2">{project.name}</h3>
               <p className="text-gray-700">{project.description.substring(0, 100)}...</p>

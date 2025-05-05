@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from '../assests/newsletter/cropped ioc logo.jpg'; // Adjust path as necessary
+import logo from '../assests/newsletter/cropped ioc logo.jpg'; // Using original JPG file
+import OptimizedImage from './common/OptimizedImage';
 
 function Logo() {
   return (
     <div>
-      <img src={logo} alt="logo" height={75} width={75}/>
+      <OptimizedImage src={logo} alt="logo" height={75} width={75}/>
     </div>
   );
 }

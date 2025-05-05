@@ -1,11 +1,11 @@
 import React from 'react';
-import tavleenKaur from '/IOC Website pictures/ioc website content/team/trustees/TAVLEEN.png';
-import harshleenKaur from '/IOC Website pictures/ioc website content/team/our patron/Harshleen Kaur.jpg';
-import reetSingh from '/IOC Website pictures/ioc website content/team/trustees/Reet Singh.jpg';
-import trishmeetKaur from '/IOC Website pictures/ioc website content/team/trustees/Copy of Copy of PHOTO-2024-01-29-17-20-46.jpg';
-import samridhiSharma from '/IOC Website pictures/ioc website content/team/trustees/Samridhi Sharma.jpg';
-import mithilGoyal from '/IOC Website pictures/ioc website content/team/trustees/MITHIL.png';
-import premSingh from '/IOC Website pictures/ioc website content/team/trustees/PREM.png';
+import tavleenKaur from '/IOC Website pictures/ioc website content/team/trustees/TAVLEEN.webp';
+import harshleenKaur from '/IOC Website pictures/ioc website content/team/our patron/Harshleen Kaur.webp';
+import reetSingh from '/IOC Website pictures/ioc website content/team/trustees/Reet Singh.webp';
+import trishmeetKaur from '/IOC Website pictures/ioc website content/team/trustees/Copy of Copy of PHOTO-2024-01-29-17-20-46.webp';
+import samridhiSharma from '/IOC Website pictures/ioc website content/team/trustees/Samridhi Sharma.webp';
+import mithilGoyal from '/IOC Website pictures/ioc website content/team/trustees/MITHIL.webp';
+import premSingh from '/IOC Website pictures/ioc website content/team/trustees/PREM.webp';
 
 const Trust = () => {
   return (

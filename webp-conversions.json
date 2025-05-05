@@ -1,0 +1,538 @@
+[
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\avon.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\avon.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\Education cover.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\Education cover.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\ggi.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\ggi.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\hero.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\hero.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\bigben.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\bigben.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\cicu.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\cicu.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\deleciousbites.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\deleciousbites.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\Election-Commission-Mar27-10.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\Election-Commission-Mar27-10.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\idfc.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\idfc.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\smtv.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\smtv.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\vipul.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\associates\\vipul.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\branches\\canada.jpeg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\branches\\canada.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\branches\\delhi.jpeg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\branches\\delhi.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\branches\\ludhiana.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\branches\\ludhiana.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Donate\\razorpay.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Donate\\razorpay.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Donate\\SBI-Logo.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Donate\\SBI-Logo.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Donate\\Screenshot 2024-08-04 203552.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Donate\\Screenshot 2024-08-04 203552.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\icons8-arrow-50.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\icons8-arrow-50.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\icons8-top-50.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\icons8-top-50.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\About us\\Screenshot 2024-08-05 211621.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\About us\\Screenshot 2024-08-05 211621.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\About us\\team.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\About us\\team.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\chairman\\Copy of Copy of PHOTO-2024-01-29-17-11-57.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\chairman\\Copy of Copy of PHOTO-2024-01-29-17-11-57.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\Copy of Copy of 16117930_1205922146123882_505256113_n.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\Copy of Copy of 16117930_1205922146123882_505256113_n.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\Copy of IMG20230711131419.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\Copy of IMG20230711131419.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\Fatimawithstudents.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\Fatimawithstudents.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\smyc.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\smyc.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\Snapinsta.app_133656616_410886903578989_8257130595490017188_n_1080.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\home page\\Snapinsta.app_133656616_410886903578989_8257130595490017188_n_1080.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Arsh Madaan.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Arsh Madaan.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Arshia Lekhi.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Arshia Lekhi.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Arshpreet Kaur, Director.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Arshpreet Kaur, Director.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Pankhuria.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Pankhuria.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Raghav Sachdeva.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Raghav Sachdeva.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Ria Bharti.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Ria Bharti.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Tanusha Arora.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Tanusha Arora.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Taranjot Singh.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Taranjot Singh.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Uday Wadhwa.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\advisors\\Uday Wadhwa.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\employees\\Kashish Gupta.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\employees\\Kashish Gupta.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\employees\\Screenshot 2024-08-05 010302.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\employees\\Screenshot 2024-08-05 010302.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\media head\\Screenshot 2024-08-05 004725.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\media head\\Screenshot 2024-08-05 004725.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\our patron\\Harshleen Kaur.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\our patron\\Harshleen Kaur.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\ajeet.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\ajeet.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\jappan.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\jappan.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\jasleen.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\jasleen.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\muskan.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\muskan.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\Screenshot 2024-08-05 014343.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\Screenshot 2024-08-05 014343.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\vidhi.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\teamheads\\vidhi.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Copy of Copy of PHOTO-2024-01-29-17-20-46.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Copy of Copy of PHOTO-2024-01-29-17-20-46.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Mithil Goyal.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Mithil Goyal.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\MITHIL.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\MITHIL.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Prem Singh.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Prem Singh.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\PREM.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\PREM.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Reet Singh.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Reet Singh.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Samridhi Sharma.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\Samridhi Sharma.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\TAVLEEN.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\team\\trustees\\TAVLEEN.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Collage1.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Collage1.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07679.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07679.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07682.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07682.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07692.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07692.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07945.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07945.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07950.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07950.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07953.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07953.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07981.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07981.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07998.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of DSC07998.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG20220626090459.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG20220626090459.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG_1899.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG_1899.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG_2085.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG_2085.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG_2090.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG_2090.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG_2139.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness\\Copy of IMG_2139.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness cover.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness cover.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\I vote I lead\\123.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\I vote I lead\\123.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\Project Saanjh\\WhatsApp Image 2024-02-06 at 17.01.18_f7724557.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\Project Saanjh\\WhatsApp Image 2024-02-06 at 17.01.18_f7724557.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\SMYC\\Copy of DSC07975.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\SMYC\\Copy of DSC07975.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\SMYC\\Copy of DSC08186.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\SMYC\\Copy of DSC08186.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\SMYC\\DSC_8340.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Awareness projects\\SMYC\\DSC_8340.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education cover.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education cover.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\325676310_1161907227826161_7191053704919523627_n.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\325676310_1161907227826161_7191053704919523627_n.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\329389624_165639556240167_8111191330516413428_n.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\329389624_165639556240167_8111191330516413428_n.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\Copy of Copy of IMG_20210920_152209.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\Copy of Copy of IMG_20210920_152209.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\Copy of DSC08921.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\Copy of DSC08921.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\Copy of IMG_20211022_131432.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Classes\\Copy of IMG_20211022_131432.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Youthfest\\1 (1).jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Youthfest\\1 (1).webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Youthfest\\1 (2).jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Youthfest\\1 (2).webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Youthfest\\1 (3).jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Education Projects\\USAARI Youthfest\\1 (3).webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Evening school\\DSC_8340.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Evening school\\DSC_8340.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711091249.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711091249.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711125130 - Copy.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711125130 - Copy.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711125130.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711125130.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711125245.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711125245.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711125951.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711125951.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711131419.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Flood relif\\IMG20230711131419.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid cover.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid cover.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid projects\\Covid relief\\125 (1).jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid projects\\Covid relief\\125 (1).webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid projects\\Disaster relief\\Copy of IMG20230711091249.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid projects\\Disaster relief\\Copy of IMG20230711091249.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid projects\\Disaster relief\\Copy of IMG20230711131419.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid projects\\Disaster relief\\Copy of IMG20230711131419.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid projects\\Farmer protest\\125 (2).jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Humanitarian aid projects\\Farmer protest\\125 (2).webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16117400_1205927042790059_1807592727_n.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16117400_1205927042790059_1807592727_n.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16117930_1205922146123882_505256113_n.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16117930_1205922146123882_505256113_n.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16128278_1205920099457420_153600917_n.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16128278_1205920099457420_153600917_n.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16128788_1205922192790544_1740987231_n.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16128788_1205922192790544_1740987231_n.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16128975_1205927032790060_701964936_n.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of 16128975_1205927032790060_701964936_n.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of IMG_4312.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\I vote i lead\\Copy of IMG_4312.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project love\\Copy of IMG20220220102930.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project love\\Copy of IMG20220220102930.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project love\\Copy of IMG20220220103025.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project love\\Copy of IMG20220220103025.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project Saanjh\\_DSC1826.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project Saanjh\\_DSC1826.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project Saanjh\\_DSC2318.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project Saanjh\\_DSC2318.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project Saanjh\\_DSC2536.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project Saanjh\\_DSC2536.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project Saanjh\\_DSC2548.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Project Saanjh\\_DSC2548.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC07966.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC07966.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC08277.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC08277.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC08343.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC08343.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC08350.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC08350.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC08441.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\SMYC\\Copy of DSC08441.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC00222.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC00222.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC00272.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC00272.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC08900.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC08900.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC08914.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC08914.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC08921.JPG",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\DSC08921.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\IMG_20211022_125303.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\IMG_20211022_125303.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\IMG_20211022_125826.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\IMG_20211022_125826.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\IMG_20211022_131432.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari class\\IMG_20211022_131432.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG-20211025-WA0009.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG-20211025-WA0009.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210729_120052.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210729_120052.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210908_065206.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210908_065206.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210920_134119.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210920_134119.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210920_152209.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210920_152209.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210920_153831.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20210920_153831.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20211019_165220.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\ioc website content\\three pillars\\Usaari school\\Copy of IMG_20211019_165220.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Reviews\\fatima.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Reviews\\fatima.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Reviews\\surjeet patar.jpeg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Reviews\\surjeet patar.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Reviews\\Vishnu-Kaushal-image.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\IOC Website pictures\\Reviews\\Vishnu-Kaushal-image.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\josh.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\josh.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\logo.jpg",
+    "webp": "E:\\IOC\\ioc2015\\public\\logo.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\lpu.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\lpu.webp"
+  },
+  {
+    "original": "E:\\IOC\\ioc2015\\public\\Vardhman.png",
+    "webp": "E:\\IOC\\ioc2015\\public\\Vardhman.webp"
+  }
+]
