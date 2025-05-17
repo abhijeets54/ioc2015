@@ -50,7 +50,7 @@ const Layout = () => {
   };
 
   return (
-    <div className="relative min-h-screen bg-gray-50 font-sans">
+    <div className="relative min-h-screen bg-gray-50">
       {/* NGO-themed Loader */}
       <NGOLoader isLoading={loading} />
 
@@ -62,7 +62,6 @@ const Layout = () => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="text-base"
         >
           <Outlet />
         </motion.div>
@@ -78,7 +77,7 @@ const Layout = () => {
         <AnimatedButton
           onClick={handleDonateClick}
           variant="primary"
-          className="shadow-lg font-accent tracking-wide"
+          className="shadow-lg"
           icon={<span className="mr-1">❤️</span>}
         >
           Donate Now

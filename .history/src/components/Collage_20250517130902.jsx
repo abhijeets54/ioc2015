@@ -97,7 +97,7 @@ function Collage() {
         {/* Text and CTA Buttons */}
         <div className="h-full flex items-center">
           <div className="flex flex-col items-start ml-10 md:ml-16 text-white max-w-xl">
-            <h1 className="text-5xl md:text-6xl font-medium text-left font-heading tracking-tight leading-tight">
+            <h1 className="text-5xl md:text-6xl font-medium text-left">
               Creating Leaders,
               <br />
               Transforming Lives
@@ -105,13 +105,13 @@ function Collage() {
             
             <div className="buttons flex flex-row mt-8 space-x-4">
               <button 
-                className="px-6 py-3 rounded-full bg-orange-500 text-white font-medium shadow-lg hover:bg-orange-600 transition-all duration-300 hover:scale-105 hover:shadow-xl font-accent tracking-wide"
+                className="px-6 py-3 rounded-full bg-orange-500 text-white font-medium shadow-lg hover:bg-orange-600 transition-all duration-300 hover:scale-105 hover:shadow-xl"
                 onClick={handleDonateClick}
               >
                 Donate now
               </button>
               <button 
-                className="px-6 py-3 rounded-full border-2 border-white bg-transparent text-white font-medium hover:bg-white/20 transition-all duration-300 hover:scale-105 font-accent tracking-wide"
+                className="px-6 py-3 rounded-full border-2 border-white bg-transparent text-white font-medium hover:bg-white/20 transition-all duration-300 hover:scale-105"
                 onClick={handleJoinUsClick}
               >
                 Join us

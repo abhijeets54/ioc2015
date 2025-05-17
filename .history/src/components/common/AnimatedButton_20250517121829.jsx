@@ -40,7 +40,6 @@ const AnimatedButton = ({
     ${fullWidth ? 'w-full' : ''}
     ${variantStyles[variant]}
     ${sizeStyles[size]}
-    font-accent tracking-wide
     ${className}
   `;
 

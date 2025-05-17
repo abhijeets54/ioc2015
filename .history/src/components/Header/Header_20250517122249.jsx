@@ -7,8 +7,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -24,14 +22,8 @@ function Header() {
   // Handle scroll effect for navbar
   useEffect(() => {
     const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
-      
-      // Show/hide navbar based on scroll direction
-      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
-      setPrevScrollPos(currentScrollPos);
-      
-      // Add shadow and background when scrolled
-      if (currentScrollPos > 10) {
+      const offset = window.scrollY;
+      if (offset > 50) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -42,17 +34,14 @@ function Header() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [prevScrollPos]);
+  }, []);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <header 
-      className={`fixed w-full z-50 transition-all duration-300 ease-in-out
-        ${scrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg py-2' : 'bg-white/80 py-3'}
-        ${visible ? 'top-0' : '-top-20'}
-      `}
-    >
+    <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      scrolled ? 'bg-white shadow-lg py-2' : 'bg-white/80 backdrop-blur-md py-3'
+    }`}>
       <Container>
         <nav className='flex justify-between items-center'>
           <motion.div 
@@ -80,7 +69,7 @@ function Header() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, staggerChildren: 0.1 }}
-            className='hidden lg:flex ml-auto space-x-2 items-center font-accent'
+            className='hidden lg:flex ml-auto space-x-2 items-center'
           >
             {navItems.map((item, index) => (
               <motion.li 
@@ -92,7 +81,7 @@ function Header() {
                 <button
                   onClick={() => navigate(item.slug)}
                   className={`
-                    relative px-5 py-2 font-medium transition-all duration-300 rounded-full tracking-wide
+                    relative px-5 py-2 font-medium transition-all duration-300 rounded-full
                     ${item.name === 'Donate'
                       ? 'text-white bg-orange-500 hover:bg-orange-600 shadow-md hover:shadow-lg transform hover:scale-105'
                       : location.pathname === item.slug 
@@ -101,6 +90,9 @@ function Header() {
                   `}
                 >
                   <span className="relative z-10">{item.name}</span>
+                  {item.name !== 'Donate' && location.pathname === item.slug && (
+                    <span className="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500"></span>
+                  )}
                 </button>
               </motion.li>
             ))}
@@ -113,7 +105,7 @@ function Header() {
                 animate={{ opacity: 1, height: 'auto' }}
                 exit={{ opacity: 0, height: 0 }}
                 transition={{ duration: 0.3 }}
-                className='lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-40 overflow-hidden font-accent'
+                className='lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-40 overflow-hidden'
               >
                 <ul className='flex flex-col items-center py-4'>
                   {navItems.map((item, index) => (
@@ -130,7 +122,7 @@ function Header() {
                           setMenuOpen(false);
                         }}
                         className={`
-                          w-full text-center py-3 px-6 my-1 mx-4 transition-all duration-200 tracking-wide
+                          w-full text-center py-3 px-6 my-1 mx-4 transition-all duration-200
                           ${item.name === 'Donate' 
                             ? 'bg-orange-500 text-white font-medium rounded-md shadow-md hover:bg-orange-600 hover:shadow-lg' 
                             : location.pathname === item.slug 

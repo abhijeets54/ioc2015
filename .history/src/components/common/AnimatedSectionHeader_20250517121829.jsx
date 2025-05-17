@@ -49,7 +49,7 @@ const AnimatedSectionHeader = ({
   return (
     <div className={`mb-10 ${centered ? 'text-center' : ''}`}>
       <motion.h2 
-        className="text-3xl font-bold text-gray-800 font-heading tracking-tight"
+        className="text-3xl font-bold text-gray-800"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -69,7 +69,7 @@ const AnimatedSectionHeader = ({
       
       {subtitle && (
         <motion.p 
-          className="text-gray-600 max-w-2xl mx-auto font-sans leading-relaxed"
+          className="text-gray-600 max-w-2xl mx-auto"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}

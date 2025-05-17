@@ -30,7 +30,7 @@ function Header() {
       setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
       setPrevScrollPos(currentScrollPos);
       
-      // Add shadow and background when scrolled
+      // Add shadow when scrolled
       if (currentScrollPos > 10) {
         setScrolled(true);
       } else {
@@ -49,7 +49,7 @@ function Header() {
   return (
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ease-in-out
-        ${scrolled ? 'bg-white/95 backdrop-blur-sm shadow-lg py-2' : 'bg-white/80 py-3'}
+        ${scrolled ? 'bg-white shadow-lg py-2' : 'bg-white py-3'}
         ${visible ? 'top-0' : '-top-20'}
       `}
     >
@@ -59,7 +59,7 @@ function Header() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className='ml-4 w-18 h-18 flex items-center'
+            className='ml-4 flex items-center'
           >
             <button onClick={() => navigate('/')} className='focus:outline-none hover:scale-105 transition-transform duration-200'>
               <Logo className='w-full h-full object-contain' />
@@ -69,7 +69,7 @@ function Header() {
           <div className='lg:hidden mr-5'>
             <button 
               onClick={toggleMenu} 
-              className='text-black focus:outline-none hover:text-orange-500 transition-colors duration-200'
+              className='text-gray-800 focus:outline-none hover:text-orange-500 transition-colors duration-200'
               aria-label="Toggle menu"
             >
               {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -80,7 +80,7 @@ function Header() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, staggerChildren: 0.1 }}
-            className='hidden lg:flex ml-auto space-x-2 items-center font-accent'
+            className='hidden lg:flex ml-auto space-x-3 items-center mr-4'
           >
             {navItems.map((item, index) => (
               <motion.li 
@@ -92,15 +92,15 @@ function Header() {
                 <button
                   onClick={() => navigate(item.slug)}
                   className={`
-                    relative px-5 py-2 font-medium transition-all duration-300 rounded-full tracking-wide
+                    relative px-4 py-2 font-medium transition-all duration-300
                     ${item.name === 'Donate'
-                      ? 'text-white bg-orange-500 hover:bg-orange-600 shadow-md hover:shadow-lg transform hover:scale-105'
+                      ? 'text-white bg-orange-500 hover:bg-orange-600 shadow-md hover:shadow-lg rounded-full'
                       : location.pathname === item.slug 
-                        ? 'text-orange-500 bg-orange-50' 
-                        : 'text-gray-700 hover:text-orange-500 hover:bg-orange-50'}
+                        ? 'text-orange-500 font-semibold border-b-2 border-orange-500' 
+                        : 'text-gray-700 hover:text-orange-500'}
                   `}
                 >
-                  <span className="relative z-10">{item.name}</span>
+                  {item.name}
                 </button>
               </motion.li>
             ))}
@@ -113,16 +113,16 @@ function Header() {
                 animate={{ opacity: 1, height: 'auto' }}
                 exit={{ opacity: 0, height: 0 }}
                 transition={{ duration: 0.3 }}
-                className='lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-40 overflow-hidden font-accent'
+                className='lg:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-40 overflow-hidden'
               >
-                <ul className='flex flex-col items-center py-4'>
+                <ul className='flex flex-col items-center py-2'>
                   {navItems.map((item, index) => (
                     <motion.li 
                       key={item.name}
                       initial={{ opacity: 0, x: -20 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.3, delay: index * 0.05 }}
-                      className='w-full'
+                      className='w-11/12 my-1'
                     >
                       <button
                         onClick={() => {
@@ -130,12 +130,12 @@ function Header() {
                           setMenuOpen(false);
                         }}
                         className={`
-                          w-full text-center py-3 px-6 my-1 mx-4 transition-all duration-200 tracking-wide
+                          w-full text-center py-3 transition-all duration-200
                           ${item.name === 'Donate' 
-                            ? 'bg-orange-500 text-white font-medium rounded-md shadow-md hover:bg-orange-600 hover:shadow-lg' 
+                            ? 'bg-orange-500 text-white font-medium rounded-md shadow-md' 
                             : location.pathname === item.slug 
-                              ? 'bg-orange-100 text-orange-500 rounded-md font-medium'
-                              : 'hover:bg-gray-100 text-gray-700 rounded-md'}
+                              ? 'border-l-4 border-orange-500 bg-gray-50 text-orange-500 font-medium pl-4 text-left'
+                              : 'hover:bg-gray-50 text-gray-700 rounded-md text-left pl-5'}
                         `}
                       >
                         {item.name}
